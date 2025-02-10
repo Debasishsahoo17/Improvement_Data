@@ -1,0 +1,81 @@
+body {
+    background-color: #1b1b1b;
+    color: #f8f9fa;
+    font-family: "Courier New", monospace;
+    padding: 20px;
+}
+
+.search-box {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.result-box {
+    background-color: #2b2b2b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border-left: 5px solid #ffcc00;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.subject-list {
+    background-color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    color: #0f0;
+    white-space: pre-wrap;
+    font-size: 14px;
+    border: 1px solid #ffcc00;
+}
+
+pre {
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+}
+
+h4 {
+    color: #ffcc00;
+    text-transform: uppercase;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    background-color: #222;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ffcc00;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #ffcc00;
+}
+
+td {
+    background-color: #2b2b2b;
+    color: #f8f9fa;
+}
+
+.student-info {
+    background: #2b2b2b;
+    border-radius: 10px;
+    padding: 15px;
+    border-left: 5px solid #e94560;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
